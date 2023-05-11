@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/card-sorting-app/static/css/main.9e1199b1.css",
+    "main.js": "/card-sorting-app/static/js/main.7257e7cf.js",
+    "static/js/787.95bb505f.chunk.js": "/card-sorting-app/static/js/787.95bb505f.chunk.js",
+    "index.html": "/card-sorting-app/index.html",
+    "main.9e1199b1.css.map": "/card-sorting-app/static/css/main.9e1199b1.css.map",
+    "main.7257e7cf.js.map": "/card-sorting-app/static/js/main.7257e7cf.js.map",
+    "787.95bb505f.chunk.js.map": "/card-sorting-app/static/js/787.95bb505f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e1199b1.css",
+    "static/js/main.7257e7cf.js"
+  ]
+}
