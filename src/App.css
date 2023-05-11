@@ -1,0 +1,188 @@
+/* src/App.css */
+body {
+  background-color: #005a82;
+  color:#ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: roboto,sans-serif;
+}
+
+p {
+  max-width:60%;
+}
+
+.columns {
+  margin-top:20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 24px;
+  width:1400px;
+}
+
+.left {
+  border: none;
+  padding: 8px;
+  margin-bottom: 8px;
+  min-height: 100px;
+  width: 100%;
+  min-width:300px;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10);
+}
+
+.group {
+  border: none;
+  padding: 8px;
+  margin-bottom: 8px;
+  min-height: 100px;
+  flex-basis: calc(50% - 5px); /* Add this line */
+  box-sizing: border-box; /* Add this line */
+  max-width: calc(50% - 5px); /* Add this line */
+  width: calc(50% - 10px); /* Change this line */
+  overflow-y: auto;
+  background-color: white;
+  position:relative;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10);
+  transition: all 0.3s ease-out;
+}
+
+.left-section, .right-section {
+  color:#303133;
+}
+
+.left-section {
+  max-width: 30%;
+  min-width: 400px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10);
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  min-height: 100px;
+  padding: 8px;
+  overflow-y: auto;
+  box-shadow: none;
+  margin-top:20px;
+  transition: all 0.3s ease-out;
+}
+
+.card {
+  padding: 4px 8px;
+  background-color: #eee;
+  border: none;
+  border-radius: 2px;
+  cursor: grab;
+  height:32px;
+  margin: 4px 4px 4px 0px;
+  box-sizing: border-box;
+  max-width: calc(100% - 10px);
+  line-height:24px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+
+.card span {
+  float:right;
+  margin-left:8px;
+}
+
+.card span span {
+  line-height:27px;
+  margin:0px 4px; 
+}
+
+
+.right {
+  /* background-color: #e0eaf3; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding:8px;
+  border-radius: 8px;
+  margin-top:24px;
+}
+
+.right-section {
+  min-width: 70%;
+  margin-left: 24px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10);
+  padding: 16px 24px;
+}
+
+.left-section textarea, .right-section textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  min-height:150px;
+}
+
+button {
+  background-color: #ff6100;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight:bold;
+  padding: 4px 8px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  min-height:32px;
+}
+
+button:hover {
+  background-color: #b34400;
+}
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+  min-height:32px;
+}
+
+.delete-icon-container, .back-icon-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.delete-icon-container:hover .delete-icon circle{
+  fill: #ff5555;
+}
+
+.back-icon-container:hover .back-icon polygon{
+  fill: #449944;
+}
+
+.delete-group-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.delete-group-btn:hover .delete-group-icon circle {
+  fill: #ff3333;
+}
+

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/card-sort/static/css/main.9e1199b1.css",
+    "main.js": "/card-sort/static/js/main.1926db61.js",
+    "static/js/787.95bb505f.chunk.js": "/card-sort/static/js/787.95bb505f.chunk.js",
+    "index.html": "/card-sort/index.html",
+    "main.9e1199b1.css.map": "/card-sort/static/css/main.9e1199b1.css.map",
+    "main.1926db61.js.map": "/card-sort/static/js/main.1926db61.js.map",
+    "787.95bb505f.chunk.js.map": "/card-sort/static/js/787.95bb505f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e1199b1.css",
+    "static/js/main.1926db61.js"
+  ]
+}
